@@ -1,1 +1,12 @@
-
+##	Files:
+○	train.csv (Labeled Training Data):
+■	id: Unique identifier for each comment
+■	feedback_text: The feedback to be classified
+■	toxic: 1 if the comment is toxic
+■	abusive: 1 if the comment contains severe toxicity
+■	vulgar: 1 if the comment contains obscene language
+■	menace: 1 if the comment contains threats
+■	offense: 1 if the comment contains insults
+■	bigotry: 1 if the comment contains identity-based hate
+○	test.csv (Unlabeled data for prediction)
+Note: Each label is binary (0 = offensive content not present, 1 = offensive content present), and multiple labels can be active for a single comment.
