@@ -1,4 +1,3 @@
-# Offensive-Language-Classification
 # Offensive Language Classification - SM Technology AI Developer Task
 
 ##  Project Overview
