@@ -25,7 +25,7 @@ I implemented two types of models:
 - Text preprocessing includes: lowercasing, punctuation removal, stopword removal, lemmatization
 - Evaluation using Accuracy, Precision, Recall, F1-score, Confusion Matrix, and ROC-AUC curves
 
-### 🔹 Transformer-Based Model (`model2_implementation.ipynb`)
+### Transformer-Based Model (`model2_implementation.ipynb`)
 - Fine-tuned **BERT** model using HuggingFace Transformers
 - Used `BertTokenizer` and `BertForSequenceClassification` with `multi_label_classification`
 - Tokenization, padding, and attention masking handled with `encode_plus`
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ## Model Evaluation Results
 **Baseline Model (Logistic Regression):**
 - Micro F1-score: ~0.92
-- ROC-AUC: ~0.85
+- ROC-AUC: ~0.87
 
 **LSTM Model:**
 - Micro F1-score: ~0.82
